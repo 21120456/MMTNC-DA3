@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage ('Clone') {
             steps {
-                git 'https://github.com/KT-Hg/MMTNC-DA3.git'
+                git 'https://github.com/21120456/MMTNC-DA3.git'
             }
         }
         stage ('Build') {
